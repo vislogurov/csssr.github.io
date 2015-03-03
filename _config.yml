@@ -1,13 +1,9 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
-
-# Google analytics
-google_analytics:
+title:       CSSSR
+author:      CSSSR
+email:       vostok@example.com
+description: CSSSR — веб-студия, предоставляющая frontend аутсорсинг. Мы верстаем из PSD в HTML и CSS. Вёрстка для сайтов, лэндингов и почтовых рассылок.
+url:         http://blog.csssr.ru
 
 # Optional features
 animated:           false
@@ -19,10 +15,10 @@ show_post_footers:  false
 disqus_shortname:
 
 # Social icons
-show_social_icons: false
-github_username:
+show_social_icons: true
+github_username: csssr
 stackoverflow_id:
-twitter_username:
+twitter_username: csssr_dev
 google_plus_id:
 linkedin_username:
 bitcoin_url:
