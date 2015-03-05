@@ -335,9 +335,11 @@ h6,
     position: relative;
     top: 0.1em;
 }
-.site-title-image {
+.site-title {
     width: 114px;
     height: 28px;
+    background-size: cover;
+    @extend %logo
 }
 @media screen and (min-width: 48em) {
   .site-header .site-title {
