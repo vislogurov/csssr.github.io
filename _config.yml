@@ -1,9 +1,8 @@
 # Site settings
 title:       CSSSR
 author:      CSSSR
-email:       vostok@example.com
-description: CSSSR — веб-студия, предоставляющая frontend аутсорсинг. Мы верстаем из PSD в HTML и CSS. Вёрстка для сайтов, лэндингов и почтовых рассылок.
-url:         http://blog.csssr.ru
+email:       vostok@csssr.com
+description: CSSSR — веб-студия, специализирующая на фронтенд-разработке. HTML, CSS, JavaScript.
 
 # Optional features
 animated:           false
@@ -16,7 +15,7 @@ disqus_shortname:
 
 # Social icons
 show_social_icons: true
-github_username: csssr
+github_username: CSSSR
 stackoverflow_id:
 twitter_username: csssr_dev
 google_plus_id:
