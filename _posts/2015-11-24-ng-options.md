@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      Записки начинающего Angular-онавта: ng-options
-date:       2015-11-24 15:07:00
-summary:    Заметка об использовании ng-options, некоторых нюансах и особенностях
+layout:  post
+title:   Записки начинающего Angular-онавта:ng-options
+date:    2015-11-24 15:07:00
+summary: Заметка об использовании ng-options, некоторых нюансах и особенностях
 ---
 
 Записки начинающего Angular-онавта: ng-options  
