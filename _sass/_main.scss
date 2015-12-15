@@ -276,6 +276,10 @@ code {
 	border-radius: 4px;
 }
 
+pre code {
+  background-color: tranparent;
+}
+
 pre {
   padding: 1.125em;
   font-size: 1.125rem;
