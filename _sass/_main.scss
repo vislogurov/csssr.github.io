@@ -266,11 +266,14 @@ abbr {
 }
 
 pre, code {
-  font-family: Menlo, Monaco, "Courier New", monospace
+  font-family: monospace;
 }
 
 code {
-  color: #7a7a7a;
+  padding: 3px 8px;
+  color: #666;
+	background-color: #eee;
+	border-radius: 4px;
 }
 
 pre {
