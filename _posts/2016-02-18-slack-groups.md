@@ -39,11 +39,13 @@ summary: Лайфхаки о способах обращения сразу к �
 ![Slackbot](/images/slack-groups/slack-slackbot-responses.png)
 
 Ответ от бота для `-groups`:
+
 ```
 Type `@` with one of these groups: `manager`, `react`, `js`. Example: `@example`. It will send notifications automatically when you add necessary groups in Highlight Words: https://slack.com/account/notifications#highlight_words_div
 ```
 
 Ответ от бота для `-channels`:
+
 ```
 Type `#` with one of channels in Slack. Example: `#example`. It will send notifications automatically when you add necessary channels in Highlight Words: https://slack.com/account/notifications#highlight_words_div
 ```
@@ -55,6 +57,7 @@ Type `#` with one of channels in Slack. Example: `#example`. It will send notifi
 ### Различие групп
 
 Группа, начинающаяся с:
+
 - `@` - независимая группа, выглядит как обычный текст, но может быть и ссылкой, если уже занят чьим-то никнеймом.
 - `#` - группа с людьми из этого канала, становится ссылкой на канал, обычно используется для обращения в других каналах.
 
