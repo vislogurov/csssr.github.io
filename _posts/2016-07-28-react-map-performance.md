@@ -133,8 +133,10 @@ export default class List extends Component {
 	// ...
 	
 	render() {
+		const { items, onClick } = this.props
+		
 		return <div styleName='list'>
-			{this.props.items.map(({ id, name, value }) =>
+			{items.map(({ id, name, value }) =>
 				<Item
 					key={id}
 					id={id}
