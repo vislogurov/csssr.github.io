@@ -116,16 +116,17 @@ items.map(({ id, name, value }) =>
 и [`recompose`](https://github.com/acdlite/recompose),
 которые добавляют компоненту проверку пропсов в `shouldComponentUpdate`
 и решают, когда нужен перерендер, тем самым увеличивая скорость работы приложения.
+В будущем они не понадобятся, т.к. в React это будет работать по умолчанию из коробки.
 
 Всё вместе в итоге.
 
 ```js
-// index.jsx
+// list/index.jsx
 import { Component } from 'react'
 import pure from 'pure-render-decorator'
 import css from 'react-css-modules'
 import styles from './styles.sss'
-import Item from './item'
+import ListItem from './item'
 
 @css(styles)
 @pure
@@ -133,7 +134,7 @@ export default class List extends Component {
 	// ...
 	
 	renderItem = ({ id, name, value }) =>
-		<Item
+		<ListItem
 			key={id}
 			id={id}
 			name={name}
@@ -150,15 +151,16 @@ export default class List extends Component {
 ```
 
 ```js
-// item.jsx
+// list/item.jsx
 import { Component } from 'react'
 import pure from 'pure-render-decorator'
 import css from 'react-css-modules'
 import styles from './styles.sss'
+import Item from '../item'
 
 @css(styles)
 @pure
-export default class List extends Component {
+export default class ListItem extends Component {
 	// ...
 
 	onClick = () => this.props.onClick(this.props.id)
@@ -175,6 +177,22 @@ export default class List extends Component {
 		</div>
 	}
 }
+```
+
+```
+// item/index.jsx
+import pure from 'pure-render-decorator'
+import css from 'react-css-modules'
+import styles from './styles.sss'
+
+function Item({ name, value }) {
+	return <div styleName='item'>
+		<div styleName='name'>{name}</div>
+		<div styleName='value'>{value}</div>
+	</div>
+}
+
+export default pure(css(Item, styles))	
 ```
 
 Вот так готовятся компоненты в нашей кухне.
