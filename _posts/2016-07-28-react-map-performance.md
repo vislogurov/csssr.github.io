@@ -132,19 +132,18 @@ import Item from './item'
 export default class List extends Component {
 	// ...
 	
+	renderItem = ({ id, name, value }) =>
+		<Item
+			key={id}
+			id={id}
+			name={name}
+			value={value}
+			onClick={this.props.onClick}
+		/>
+	
 	render() {
-		const { items, onClick } = this.props
-		
 		return <div styleName='list'>
-			{items.map(({ id, name, value }) =>
-				<Item
-					key={id}
-					id={id}
-					name={name}
-					value={value}
-					onClick={onClick}
-				/>
-			)}
+			{this.props.items.map(this.renderItem)}
 		</div>
 	}
 }
