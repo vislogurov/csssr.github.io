@@ -84,7 +84,7 @@ items.map(({ id, name, value }) =>
 Использование компонентов в мапах также производительней при добавлении различных обработчиков,
 например, на событие `onClick`.
 Если с обёрткой, это делалось путём вызова функции
-и передачи ей необходимых данных, создавая каждый раз бы новую функцию:
+и передачи ей необходимых данных, создавая каждый раз новую функцию:
 
 ```js
 items.map(({ id, name, value }) =>
@@ -179,7 +179,7 @@ export default class ListItem extends Component {
 }
 ```
 
-```
+```js
 // item/index.jsx
 import pure from 'pure-render-decorator'
 import css from 'react-css-modules'
