@@ -273,6 +273,10 @@ abbr {
   cursor: help;
 }
 
+b, strong {
+  font-weight: 500;
+}
+
 pre, code {
   font-family: monospace;
 }
