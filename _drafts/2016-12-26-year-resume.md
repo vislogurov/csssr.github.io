@@ -118,9 +118,9 @@ NPM умер! Да здравствует Yarn?
 
 В этом году наше присутствие на интернет-арене необычайно усилилось. Наши статьи попали во все крупные интеренет-издания и паблики, породив тонны холиваров и <s>срачей</s>:
 
-- [Web-Standarts](https://twitter.com/webstandards_ru/status/778217300163956736)
-- [Еще Web-Standarts - пруфы с 26.50](https://soundcloud.com/web-standards/episode-46)
-- [Еще Web-Standarts](https://twitter.com/webstandards_ru/status/807175305798553600)
+- [Web-Standards](https://twitter.com/webstandards_ru/status/778217300163956736)
+- [Еще Web-Standards - пруфы с 26.50](https://soundcloud.com/web-standards/episode-46)
+- [Еще Web-Standards](https://twitter.com/webstandards_ru/status/807175305798553600)
 - [Еженедельный дайджест от хабры](https://habrahabr.ru/company/zfort/blog/310980/)
 - [Еще статья на хабре](https://habrahabr.ru/post/312932/)
 - [Medium](https://medium.com/russian/%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%B2%D1%8B%D1%87%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-edd8926deab1#.uxdtvqho0)
